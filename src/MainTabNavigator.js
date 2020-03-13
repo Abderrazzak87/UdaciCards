@@ -15,7 +15,7 @@ import { white, purple } from './utils/colors'
 
 
 const navOptionHandler = (navigation) => ({
-    header: null,
+  headerShown: null,
 })
 
 

@@ -16,7 +16,7 @@ class AddDeck extends Component {
     const { title } = this.state
 
     dispatch(createDeck({ title: title, questions: [] }))
-    navigation.navigate('home')
+    navigation.navigate('DeckDetail', { deckTitle: title })
   }
 
   render() {
